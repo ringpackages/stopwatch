@@ -1,36 +1,39 @@
 aPackageInfo = [
-	:name = "The stopwatch Package",
-	:description = "Our stopwatch package using the Ring programming language",
+	:name = "The StopWatch Package",
+	:description = "Our StopWatch package using the Ring programming language",
 	:folder = "stopwatch",
-	:developer = "YourName",
-	:email = "YourEmail",
+	:developer = "Mahmoud Fayed",
+	:email = "msfclipper@yahoo.com",
 	:license = "MIT License",
-	:version = "0.1.0",
+	:version = "1.0.0",
 	:ringversion = "1.10",
 	:versions = 	[
 		[
-			:version = "0.1.0",
+			:version = "1.0.0",
 			:branch = "master"
 		]
 	],
 	:libs = 	[
 		[
-			:name = "",
-			:version = "",
+			:name = "ringqt",
+			:version = "1.0",
+			:providerusername = ""
+		],
+		[
+			:name = "stdlib",
+			:version = "1.0",
 			:providerusername = ""
 		]
 	],
 	:files = 	[
-		"lib.ring",
 		"main.ring",
-		"applications/stopwatch/images/stopwatch.png",
-		"applications/stopwatch/stopwatch.rform",
-		"applications/stopwatch/stopwatchController.ring",
-		"applications/stopwatch/stopwatchView.ring",
 		"README.md"
 	],
 	:ringfolderfiles = 	[
-
+		"applications/stopwatch/images/stopwatch.png",
+		"applications/stopwatch/stopwatch.rform",
+		"applications/stopwatch/stopwatchController.ring",
+		"applications/stopwatch/stopwatchView.ring"
 	],
 	:windowsfiles = 	[
 
